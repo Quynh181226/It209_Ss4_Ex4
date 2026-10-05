@@ -1,0 +1,57 @@
+# ==============================================
+# .gitignore - Cau hinh bo qua file cho Git
+# Tac gia: ngotrungchien
+# Email: ngotrungchien232@gmail.com
+# ==============================================
+
+# --- File bao mat / Credentials (QUAN TRONG) ---
+credentials.txt
+*.env
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets.txt
+config/secrets.yml
+*.secret
+
+# --- Thu muc build cua Java / Maven / Gradle ---
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# --- IDE va Editor ---
+.idea/
+*.iml
+.eclipse/
+.settings/
+.project
+.classpath
+*.sublime-workspace
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- He dieu hanh ---
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.swp
+*~
+
+# --- Log files ---
+*.log
+logs/
+
+# --- Thu muc phu thuoc ---
+node_modules/
+vendor/
